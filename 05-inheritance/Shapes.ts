@@ -1,22 +1,22 @@
 export class Shape{
  
-    constructor(private _X: string, private _Y: string){
+    constructor(private _X: number, private _Y: number){
     }
 
-    public get y(): string {
-        return this._y;
+    public get y(): number {
+        return this._Y;
     }
 
-    public set y(value: string) {
-        this._y = value;
+    public set y(value: number) {
+        this._Y = value;
     }
 
-    public get x(): string {
-        return this._x;
+    public get x(): number {
+        return this._X;
     }
 
-    public set x(value: string) {
-        this._x = value;
+    public set x(value: number) {
+        this._X = value;
     }
 
     getInfo(){
